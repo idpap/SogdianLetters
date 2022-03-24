@@ -1,0 +1,13 @@
+{
+  "id" : "https://idpap.github.io/SogdianLetters/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in idpap/SogdianLetters project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://idpap.github.io/SogdianLetters/manifests/manifest2.json",
+    "label" : "[Click to edit label]"
+  } ]
+}
