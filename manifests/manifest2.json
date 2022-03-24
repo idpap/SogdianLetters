@@ -1,0 +1,102 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://idpap.github.io/SogdianLetters/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "viewingHint" : "individuals",
+  "description" : [ {
+    "@value" : "A collection of Sogdian letters from ancient Central Asia.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "National Library of China and the British Library",
+  "sequences" : [ {
+    "@id" : "http://6525e3e2-b246-47a8-a6dd-03bd196e0eba",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://fd33b6ec-c1ec-4a4c-8d98-7327d7782fba",
+      "@type" : "sc:Canvas",
+      "label" : "One page of an 8th century letter at the British Library (Or.8212/166)",
+      "height" : 1476,
+      "width" : 837,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://94d28786-a680-420e-9baa-7fc7a88e2aa8",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://idpap.github.io/SogdianLetters/images/letter_IDP_BL/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://idpap.github.io/SogdianLetters/images/letter_IDP_BL",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1476,
+          "width" : 837
+        },
+        "on" : "http://fd33b6ec-c1ec-4a4c-8d98-7327d7782fba"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c18f23bd-d5f1-4375-af76-0e2be5728dce",
+      "@type" : "sc:Canvas",
+      "label" : "Another page of an 8th century letter at the National Library of China (BH1-19)",
+      "height" : 1470,
+      "width" : 1049,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://76aa82a1-e188-44c4-a317-ee9f42b2500f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://idpap.github.io/SogdianLetters/images/letter_IDP_NLC/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://idpap.github.io/SogdianLetters/images/letter_IDP_NLC",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1470,
+          "width" : 1049
+        },
+        "on" : "http://c18f23bd-d5f1-4375-af76-0e2be5728dce"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://40a12c46-5e95-43c5-83ba-a06042297b97",
+      "@type" : "sc:Canvas",
+      "label" : "A Sogdian letter (Or.8212/97)",
+      "height" : 1476,
+      "width" : 2895,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://eb645bc0-fd91-4fe1-9b92-8c6b1385d62e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://idpap.github.io/SogdianLetters/images/letter_IDP_BL_2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://idpap.github.io/SogdianLetters/images/letter_IDP_BL_2",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1476,
+          "width" : 2895
+        },
+        "on" : "http://40a12c46-5e95-43c5-83ba-a06042297b97"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
