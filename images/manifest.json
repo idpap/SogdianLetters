@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 1049,
+    "id" : "https://idpap.github.io/SogdianLetters/images/letter_IDP_NLC/canvas/",
+    "label" : {
+      "none" : [ "letter_IDP_NLC" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://idpap.github.io/SogdianLetters/images/letter_IDP_NLC/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://idpap.github.io/SogdianLetters/images/letter_IDP_NLC/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 33,
+              "height" : 46
+            }, {
+              "width" : 66,
+              "height" : 92
+            }, {
+              "width" : 132,
+              "height" : 184
+            }, {
+              "width" : 263,
+              "height" : 368
+            }, {
+              "width" : 525,
+              "height" : 735
+            }, {
+              "width" : 1049,
+              "height" : 1470
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1049,
+            "@id" : "https://idpap.github.io/SogdianLetters/images/letter_IDP_NLC",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1470
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1049,
+          "id" : "https://idpap.github.io/SogdianLetters/images/letter_IDP_NLC/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1470
+        },
+        "target" : "https://idpap.github.io/SogdianLetters/images/letter_IDP_NLC/canvas/"
+      } ]
+    } ],
+    "height" : 1470
+  }, {
     "width" : 837,
     "id" : "https://idpap.github.io/SogdianLetters/images/letter_IDP_BL/canvas/",
     "label" : {
