@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 91,
+    "height" : 47
+  }, {
+    "width" : 181,
+    "height" : 93
+  }, {
+    "width" : 362,
+    "height" : 185
+  }, {
+    "width" : 724,
+    "height" : 369
+  }, {
+    "width" : 1448,
+    "height" : 738
+  }, {
+    "width" : 2895,
+    "height" : 1476
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 2895,
+  "@id" : "https://idpap.github.io/SogdianLetters/images/letter_IDP_BL_2",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1476
+}
