@@ -2,7 +2,7 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://idpap.github.io/SogdianLetters/manifests/manifest2.json",
   "@type" : "sc:Manifest",
-  "label" : "[Click to edit label]",
+  "label" : "2 Letters from Central Asia in the IDP Network",
   "metadata" : [ ],
   "viewingHint" : "individuals",
   "description" : [ {
@@ -21,7 +21,12 @@
     "canvases" : [ {
       "@id" : "http://fd33b6ec-c1ec-4a4c-8d98-7327d7782fba",
       "@type" : "sc:Canvas",
-      "label" : "One page of an 8th century letter at the British Library (Or.8212/166)",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "One page of an 8th century letter at the British Library (Or.8212/166)"
+      } ],
+      "label" : "Or.8212/166",
+      "thumbnail" : "https://fixtures.iiif.io/images/Glen/photos/gottingen.jpg",
       "height" : 1476,
       "width" : 837,
       "images" : [ {
@@ -47,7 +52,11 @@
     }, {
       "@id" : "http://c18f23bd-d5f1-4375-af76-0e2be5728dce",
       "@type" : "sc:Canvas",
-      "label" : "Another page of an 8th century letter at the National Library of China (BH1-19)",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "Another page of an 8th century letter at the British Library (BH1-19)"
+      } ],
+      "label" : "BH1-19",
       "height" : 1470,
       "width" : 1049,
       "images" : [ {
@@ -73,7 +82,11 @@
     }, {
       "@id" : "http://40a12c46-5e95-43c5-83ba-a06042297b97",
       "@type" : "sc:Canvas",
-      "label" : "A Sogdian letter (Or.8212/97)",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "A different Sogdian letter at the British Library (Or.8212/97)"
+      } ],
+      "label" : "Or.8212/97",
       "height" : 1476,
       "width" : 2895,
       "images" : [ {
@@ -98,5 +111,21 @@
       "related" : ""
     } ]
   } ],
-  "structures" : [ ]
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/letter1", "http://example.org/iiif/book1/range/letter2" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/letter1",
+    "@type" : "sc:Range",
+    "label" : "Letter 1",
+    "canvases" : [ "http://fd33b6ec-c1ec-4a4c-8d98-7327d7782fba", "http://c18f23bd-d5f1-4375-af76-0e2be5728dce" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/letter2",
+    "@type" : "sc:Range",
+    "label" : "Letter 2",
+    "canvases" : [ "http://40a12c46-5e95-43c5-83ba-a06042297b97" ]
+  } ]
 }
