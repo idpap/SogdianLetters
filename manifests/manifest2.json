@@ -6,7 +6,7 @@
   "metadata" : [ ],
   "viewingHint" : "individuals",
   "description" : [ {
-    "@value" : "A collection of Sogdian letters from ancient Central Asia.",
+    "@value" : "A collection of letters from ancient Central Asia.",
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
@@ -26,7 +26,7 @@
         "value" : "One page of an 8th century letter at the British Library (Or.8212/166)"
       } ],
       "label" : "Or.8212/166",
-      "thumbnail" : "https://fixtures.iiif.io/images/Glen/photos/gottingen.jpg",
+      "thumbnail" : "https://idpap.github.io/SogdianLetters/images/letter_IDP_BL/full/full/0/default.jpg",
       "height" : 1476,
       "width" : 837,
       "images" : [ {
@@ -57,6 +57,7 @@
         "value" : "Another page of an 8th century letter at the British Library (BH1-19)"
       } ],
       "label" : "BH1-19",
+      "thumbnail" : "https://idpap.github.io/SogdianLetters/images/letter_IDP_NLC/full/full/0/default.jpg",
       "height" : 1470,
       "width" : 1049,
       "images" : [ {
@@ -87,6 +88,7 @@
         "value" : "A different Sogdian letter at the British Library (Or.8212/97)"
       } ],
       "label" : "Or.8212/97",
+      "thumbnail" : "https://idpap.github.io/SogdianLetters/images/letter_IDP_BL_2/full/full/0/default.jpg",
       "height" : 1476,
       "width" : 2895,
       "images" : [ {
